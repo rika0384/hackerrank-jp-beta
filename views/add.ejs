@@ -11,14 +11,11 @@
 <body>
     <div class="title">HackerRank日本語まとめ</div>
     <div role="main">
-        <% contests.forEach((contest)=>{ %>
-            <div class="contest">
-                <% var url = "https://www.hackerrank.com/" + contest.contest_url; %>
-                <a href= <%= url %> ><%= contest.contest_name %></a>
-                <div class="date">コンテスト日: <%= contest.contest_date %></div>
-                <div class="writer">writer: <%= contest.writer %></div>
-            </div>
-        <% }) %>
+    	<h1>コンテストの追加</h1>
+		<p>コンテストURLの 'https://www.hackerrank.com/'以下の部分とwriterの情報を送信してください</p>
+		<p>writerはカンマ区切りでお願いします（例：'chokudai, snuke'）</p>
+		<p>クォーテーションはいりません</p>
+
     </div>
 </body>
 </html>

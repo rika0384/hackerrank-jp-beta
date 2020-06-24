@@ -1,0 +1,21 @@
+<style type="text/css">
+body{
+  font-family: 'Courier New', sans-serif;
+  font-size: 30px;
+  background-color: yellow;
+}
+.title{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(59,66,77);
+	background-color: palegreen;
+}
+.contest{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	width: 600px;
+	background-color: whitesmoke;
+	text-align: center;
+}
+</style>
